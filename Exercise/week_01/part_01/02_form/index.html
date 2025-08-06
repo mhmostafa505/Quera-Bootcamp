@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Todo: your code here... html attributes-->
+<html lang="fa-IR" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <!-- Todo: your code here... heading-->
+    <header>
+      <h1>فرم ثبت نام</h1>
+    </header>
+    <form method="post">
+      <!-- Todo: your code here... نام و نام خانوادگی-->
+      <label for="name">نام و نام خانوادگی*:</label>
+      <input type="text" name="name" id="name" required>
+      <br /><br />
+
+      <!-- Todo: your code here... ایمیل-->
+      <label for="email">آدرس ایمیل*:</label>
+      <input type="email" name="email" id="email" required>
+      <br /><br />
+
+      <!-- Todo: your code here... رمز عبور-->
+      <label for="password">رمز عبور*:</label>
+      <input type="password" name="password" id="password" minlength="5" maxlength="10" required>
+      <br /><br />
+
+      <!-- Todo: your code here... شماره تلفن-->
+      <label for="phone">شماره تلفن همراه:</label>
+      <input type="tel" name="phone" id="phone" minlength="11" maxlength="11">
+      <br /><br />
+
+      <!-- Todo: your code here... شغل-->
+      <label for="job">شغل*:</label>
+      <select name="job" id="job" required>
+        <option value="">انتخاب کنید...</option>
+        <option value="designer">UI Designer</option>
+        <option value="frontend">FrontEnd Dev.</option>
+        <option disabled value="backend">BackEnd Dev.</option>
+        <option value="software">Software Eng.</option>
+      </select>
+      <br /><br />
+
+      <!-- Todo: your code here... دکمه ثبت نام-->
+       <input type="button" value="ثبت نام">
+    </form>
+  </body>
+</html>

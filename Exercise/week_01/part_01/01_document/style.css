@@ -1,0 +1,29 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+header {
+  grid-column: span 6;
+}
+header nav {
+  position: sticky;
+  top: 0;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+main {
+  grid-column: span 5;
+}
+aside {
+  float: left;
+}
+footer {
+  grid-column: span 6;
+}
+footer ul {
+  display: flex;
+  gap: 2rem;
+}

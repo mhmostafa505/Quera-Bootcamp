@@ -1,6 +1,6 @@
 function addMatrices(matrix1, matrix2) {
   // your code...
-  let len1 = matrix1.length;
+  // let len1 = matrix1.length;
   let matrixResult = [[], [], [], []];
   for (let i = 0; i < 4; i++) {
     for (let j = 0; j < 4; j++) {
